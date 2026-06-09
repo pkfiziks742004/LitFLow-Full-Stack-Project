@@ -1,0 +1,84 @@
+{
+  "siteName": "LitFlow",
+  "branding": {
+    "primaryText": "Lit",
+    "accentText": "Flow",
+    "iconPrimary": "L",
+    "iconAccent": "F",
+    "logoMode": "generated",
+    "logoImageUrl": "",
+    "logoDarkImageUrl": "",
+    "logoLightImageUrl": "",
+    "iconImageUrl": "",
+    "iconDarkImageUrl": "",
+    "iconLightImageUrl": "",
+    "primaryColor": "#60a5fa",
+    "secondaryColor": "#2dd4bf",
+    "iconLightColor": "#eff6ff",
+    "iconAccentColor": "#083344",
+    "orbitColor": "#ffffff",
+    "tagline": "Research graphs that move with you"
+  },
+  "pricing": {
+    "enabled": true,
+    "currency": "INR",
+    "free": 0,
+    "pro": 999,
+    "billingCycle": "month"
+  },
+  "upgradeDialog": {
+    "badgeText": "Confirm Upgrade",
+    "title": "Confirm plan changes",
+    "description": "Review your Pro workspace billing details before opening the secure payment checkout.",
+    "planTitle": "{siteName} Pro subscription",
+    "planDescription": "{billingCycleLabel}",
+    "dueTodayLabel": "Due today",
+    "cancelButtonLabel": "Cancel",
+    "payButtonLabel": "Pay now",
+    "taxRate": 18,
+    "highlightBadges": [
+      {
+        "label": "Unlimited research credits",
+        "icon": "sparkles"
+      },
+      {
+        "label": "Secure backend billing sync",
+        "icon": "shield"
+      }
+    ],
+    "summaryRows": [
+      {
+        "label": "Subtotal",
+        "value": "{subtotal}",
+        "emphasized": false
+      },
+      {
+        "label": "Tax {taxRate}%",
+        "value": "{tax}",
+        "emphasized": false
+      },
+      {
+        "label": "Total due today",
+        "value": "{total}",
+        "emphasized": true
+      }
+    ],
+    "infoRows": [
+      {
+        "label": "Payment method",
+        "value": "Secure Razorpay checkout",
+        "emphasized": false
+      },
+      {
+        "label": "Billing account",
+        "value": "{userEmail}",
+        "emphasized": false
+      }
+    ]
+  },
+  "features": {
+    "aiFeatures": false,
+    "adsEnabled": false,
+    "newFeatures": false
+  }
+}

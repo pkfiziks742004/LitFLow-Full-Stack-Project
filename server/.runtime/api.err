@@ -1,0 +1,166 @@
+Port 5000 is already in use.
+Close the process using that port, or set a different PORT in server/.env.
+ADMIN_SEED_PASSWORD is weak for production. Use a long random value before deployment.
+Port 5000 is already in use.
+Close the process using that port, or set a different PORT in server/.env.
+ADMIN_SEED_PASSWORD is weak for production. Use a long random value before deployment.
+Primary paper search unavailable, serving local catalog fallback. ERR_BAD_REQUEST
+Primary paper search unavailable, serving local catalog fallback. ERR_BAD_REQUEST
+Primary paper search unavailable, serving local catalog fallback. ERR_BAD_REQUEST
+ApiError: Failed to load site setting.
+    at assertNoError (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/utils/db.js:5:11)
+    at getSiteSetting (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/repositories/systemRepository.js:247:3)
+    at async Promise.all (index 1)
+    at async refreshCacheIfNeeded (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/services/runtimeConfigService.js:16:40)
+    at async getFeatureState (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/services/runtimeConfigService.js:29:3)
+    at async Promise.all (index 0)
+    at async getEffectivePlanCapabilities (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/services/quotaService.js:129:35)
+    at async getUserData (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/controllers/userController.js:6:28)
+    at async file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/utils/asyncHandler.js:4:7 {
+  statusCode: 500,
+  details: 'TypeError: fetch failed'
+}
+ApiError: Failed to load saved papers.
+    at assertNoError (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/repositories/savedPapersRepository.js:6:11)
+    at listSavedPapersByUserId (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/repositories/savedPapersRepository.js:59:3)
+    at async getUserData (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/controllers/userController.js:5:23)
+    at async file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/utils/asyncHandler.js:4:7 {
+  statusCode: 500,
+  details: 'TypeError: fetch failed'
+}
+Failed to load public site config, serving defaults instead. ApiError: Failed to load site setting.
+    at assertNoError (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/utils/db.js:5:11)
+    at getSiteSetting (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/repositories/systemRepository.js:247:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async Promise.all (index 1)
+    at async getPublicSiteConfig (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/services/siteConfigService.js:283:101)
+    at async getSiteConfig (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/controllers/siteConfigController.js:12:20)
+    at async file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/utils/asyncHandler.js:4:7 {
+  statusCode: 500,
+  details: 'TypeError: fetch failed'
+}
+Failed to load public site config, serving defaults instead. ApiError: Failed to load site setting.
+    at assertNoError (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/utils/db.js:5:11)
+    at getSiteSetting (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/repositories/systemRepository.js:247:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async Promise.all (index 1)
+    at async getPublicSiteConfig (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/services/siteConfigService.js:283:101)
+    at async getSiteConfig (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/controllers/siteConfigController.js:12:20)
+    at async file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/utils/asyncHandler.js:4:7 {
+  statusCode: 500,
+  details: 'TypeError: fetch failed'
+}
+ApiError: Failed to load admin user.
+    at assertNoError (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/utils/db.js:5:11)
+    at findAdminUserById (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/repositories/adminUsersRepository.js:37:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async requireAdminAuth (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/middlewares/adminAuth.js:27:23) {
+  statusCode: 500,
+  details: 'TypeError: fetch failed'
+}
+ApiError: Failed to load admin user.
+    at assertNoError (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/utils/db.js:5:11)
+    at findAdminUserById (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/repositories/adminUsersRepository.js:37:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async requireAdminAuth (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/middlewares/adminAuth.js:27:23) {
+  statusCode: 500,
+  details: 'TypeError: fetch failed'
+}
+ApiError: Failed to load admin user.
+    at assertNoError (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/utils/db.js:5:11)
+    at findAdminUserById (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/repositories/adminUsersRepository.js:37:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async requireAdminAuth (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/middlewares/adminAuth.js:27:23) {
+  statusCode: 500,
+  details: 'TypeError: fetch failed'
+}
+ApiError: Failed to load admin user.
+    at assertNoError (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/utils/db.js:5:11)
+    at findAdminUserById (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/repositories/adminUsersRepository.js:37:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async requireAdminAuth (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/middlewares/adminAuth.js:27:23) {
+  statusCode: 500,
+  details: 'TypeError: fetch failed'
+}
+ApiError: Failed to load admin user.
+    at assertNoError (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/utils/db.js:5:11)
+    at findAdminUserById (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/repositories/adminUsersRepository.js:37:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async requireAdminAuth (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/middlewares/adminAuth.js:27:23) {
+  statusCode: 500,
+  details: 'TypeError: fetch failed'
+}
+ApiError: Failed to load admin user.
+    at assertNoError (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/utils/db.js:5:11)
+    at findAdminUserById (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/repositories/adminUsersRepository.js:37:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async requireAdminAuth (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/middlewares/adminAuth.js:27:23) {
+  statusCode: 500,
+  details: 'TypeError: fetch failed'
+}
+Failed to load public site config, serving defaults instead. ApiError: Failed to load site setting.
+    at assertNoError (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/utils/db.js:5:11)
+    at getSiteSetting (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/repositories/systemRepository.js:247:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async Promise.all (index 1)
+    at async getPublicSiteConfig (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/services/siteConfigService.js:283:101)
+    at async getSiteConfig (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/controllers/siteConfigController.js:12:20)
+    at async file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/utils/asyncHandler.js:4:7 {
+  statusCode: 500,
+  details: 'TypeError: fetch failed'
+}
+Failed to load public site config, serving defaults instead. ApiError: Failed to load site setting.
+    at assertNoError (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/utils/db.js:5:11)
+    at getSiteSetting (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/repositories/systemRepository.js:247:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async Promise.all (index 1)
+    at async getPublicSiteConfig (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/services/siteConfigService.js:283:101)
+    at async getSiteConfig (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/controllers/siteConfigController.js:12:20)
+    at async file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/utils/asyncHandler.js:4:7 {
+  statusCode: 500,
+  details: 'TypeError: fetch failed'
+}
+Failed to load public site config, serving defaults instead. ApiError: Failed to load site setting.
+    at assertNoError (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/utils/db.js:5:11)
+    at getSiteSetting (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/repositories/systemRepository.js:247:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async Promise.all (index 1)
+    at async getPublicSiteConfig (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/services/siteConfigService.js:283:101)
+    at async getSiteConfig (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/controllers/siteConfigController.js:12:20)
+    at async file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/utils/asyncHandler.js:4:7 {
+  statusCode: 500,
+  details: 'TypeError: fetch failed'
+}
+Failed to load public site config, serving defaults instead. ApiError: Failed to load site setting.
+    at assertNoError (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/utils/db.js:5:11)
+    at getSiteSetting (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/repositories/systemRepository.js:247:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async Promise.all (index 1)
+    at async getPublicSiteConfig (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/services/siteConfigService.js:283:101)
+    at async getSiteConfig (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/controllers/siteConfigController.js:12:20)
+    at async file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/utils/asyncHandler.js:4:7 {
+  statusCode: 500,
+  details: 'TypeError: fetch failed'
+}
+Failed to load public site config, serving defaults instead. ApiError: Failed to load site setting.
+    at assertNoError (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/utils/db.js:5:11)
+    at getSiteSetting (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/repositories/systemRepository.js:247:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async Promise.all (index 1)
+    at async getPublicSiteConfig (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/services/siteConfigService.js:283:101)
+    at async getSiteConfig (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/controllers/siteConfigController.js:12:20)
+    at async file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/utils/asyncHandler.js:4:7 {
+  statusCode: 500,
+  details: 'TypeError: fetch failed'
+}
+Failed to load public site config, serving defaults instead. ApiError: Failed to load site setting.
+    at assertNoError (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/utils/db.js:5:11)
+    at getSiteSetting (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/admin/repositories/systemRepository.js:247:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async Promise.all (index 1)
+    at async getPublicSiteConfig (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/services/siteConfigService.js:283:101)
+    at async getSiteConfig (file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/controllers/siteConfigController.js:12:20)
+    at async file:///C:/Users/Prashant%20Kumar/Desktop/LitFlow/server/src/utils/asyncHandler.js:4:7 {
+  statusCode: 500,
+  details: 'TypeError: fetch failed'
+}
